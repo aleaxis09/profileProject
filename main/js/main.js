@@ -16,7 +16,10 @@ function printName(){
 		success: function(other){
 			var name="Alexis";
 			var poner = $("#name").html(name);
-			console.log(other);
+			console.log(other['data']);
+			console.log(other['action']);
+			console.log(other['date']);
+			console.log(other['info']);
 		}
 	})
 }

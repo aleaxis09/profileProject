@@ -8,6 +8,14 @@
 </head>
 <body>
 	Hola <span id="name"></span>
+	<h1>Voy a subir una foto</h1>
+	<form method="post" action="../server/upload.php" enctype="multipart/form-data">
+		<h2>
+			Select your pic
+		</h2>
+		<input type="file" name="filename" size="10" id="">
+		<input type="submit" value="Upload">
+	</form>
 
 	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
